@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
   /** @type {import('vite').UserConfig} */
   return {
     // config options
-    assetsInclude: ['**/*.gltf', '**/*.glb', '**/*.m4a'],
+    assetsInclude: ['**/*.gltf', '**/*.glb', '**/*.m4a', "'**/*.hdr'"],
     server: {
       open: '/index.html'
     },
