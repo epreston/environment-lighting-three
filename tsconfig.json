@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es2022",
+    "lib": ["esnext", "dom"],
+
+    /* Modules */
+    "module": "es2022",
+    "moduleResolution": "bundler",
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+
+    /* JavaScript Support */
+    "allowJs": true,
+    "checkJs": true,
+    "maxNodeModuleJsDepth": 3,
+
+    /* Emit */
+    "sourceMap": false,
+    "outDir": "temp",
+    "removeComments": false,
+    "newLine": "lf",
+
+    /* Interop Constraints */
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "noImplicitThis": true,
+
+    /* Completeness */
+    "skipLibCheck": true
+  },
+  "include": ["global.d.ts", "src"],
+  "exclude": ["node_modules", "**/node_modules/*", "dist"]
+}
