@@ -10,10 +10,25 @@
 # *.py linguist-vendored
 CHANGELOG.md export-ignore
 
-LICENSE.txt eol=crlf
+LICENSE eol=crlf
 
 *.bat eol=crlf
 *.cmd eol=crlf
 *.ps1 eol=lf
 *.sh eol=lf
 *.rtf -text
+
+# Binary file types.
+*.webp binary
+*.png binary
+*.jpg binary
+*.glb binary
+*.fbx binary
+*.wasm binary
+*.basis binary
+*.bin binary
+*.dds binary
+*.drc binary
+*.mp3 binary
+*.mp4 binary
+*.gz binary
