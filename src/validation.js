@@ -14,7 +14,7 @@ const decoderPath = 'https://www.gstatic.com/draco/versioned/decoders/1.5.6/';
 // scene
 
 const scene = new THREE.Scene();
-const light = new THREE.AmbientLight(0xffffff, 1 * Math.PI);
+const light = new THREE.AmbientLight(0xffffff, 1 /* * Math.PI */); // 156+
 scene.add(light);
 
 // load
@@ -59,6 +59,10 @@ camera.position.set(0, 1.5, 2);
 // renderer
 
 const renderer = new THREE.WebGLRenderer({ antialias: true });
+
+// (required: 150.1, not required in future versions)
+renderer.outputEncoding = THREE.sRGBEncoding; // SRGBColorSpace
+
 renderer.setClearColor(0x3d3d3d);
 renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setAnimationLoop(animation);
