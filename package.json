@@ -3,7 +3,7 @@
   "type": "module",
   "name": "test-lighting",
   "version": "0.0.1",
-  "description": "Repo Template: three, vite, eslint.",
+  "description": "lighting validation test rig",
   "keywords": [],
   "author": "",
   "license": "MIT",
