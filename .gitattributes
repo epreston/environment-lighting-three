@@ -1,0 +1,19 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Files to remove from language stats for this project
+# *.css linguist-vendored
+# *.scss linguist-vendored
+# *.html linguist-vendored
+# *.js linguist-vendored
+# *.php linguist-vendored
+# *.py linguist-vendored
+CHANGELOG.md export-ignore
+
+LICENSE.txt eol=crlf
+
+*.bat eol=crlf
+*.cmd eol=crlf
+*.ps1 eol=lf
+*.sh eol=lf
+*.rtf -text

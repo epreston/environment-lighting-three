@@ -1,0 +1,26 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    ".git": true,
+    "**/.DS_Store": true
+  },
+  "search.exclude": {
+    "**/node_modules": true
+  },
+  "files.insertFinalNewline": true,
+  "[plaintext]": {
+    "files.insertFinalNewline": false
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "cSpell.words": [
+    "glsl",
+    "threejs",
+    "tweakpane"
+  ]
+}

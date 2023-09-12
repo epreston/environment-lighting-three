@@ -1,0 +1,14 @@
+# dependabot.yml file with updates
+#
+# Documentation for all configuration options:
+# https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+version: 2
+updates:
+  # Enable version updates for npm
+  - package-ecosystem: "npm"
+    # Look for `package.json` and `lock` files in the `root` directory
+    directory: "/"
+    # Check the npm registry for updates monthly
+    schedule:
+      interval: "monthly"
