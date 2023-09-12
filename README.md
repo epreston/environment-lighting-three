@@ -1,6 +1,6 @@
-# Three.js Web Project
+# Environment Lighting Validation
 
-Repo Template: three, vite, eslint
+Ensure environment lighting is working.
 
 [![CI][ci-badge]][ci-url]
 
@@ -50,8 +50,8 @@ npm run dev
 
 ## License
 
-This template is released under the MIT [License](LICENSE).
+This project is released under the MIT [License](LICENSE).
 
-[ci-badge]: https://github.com/epreston/template-web-threejs/actions/workflows/ci.yml/badge.svg
-[ci-url]: https://github.com/epreston/template-web-threejs/actions
+[ci-badge]: https://github.com/epreston/test-lighting/actions/workflows/ci.yml/badge.svg
+[ci-url]: https://github.com/epreston/test-lighting/actions
 
