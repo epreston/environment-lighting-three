@@ -19,6 +19,7 @@
     "files.trimTrailingWhitespace": false
   },
   "cSpell.words": [
+    "cubemap",
     "glsl",
     "gltf",
     "threejs",
