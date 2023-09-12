@@ -11,11 +11,27 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 
 const decoderPath = 'https://www.gstatic.com/draco/versioned/decoders/1.5.6/';
 
+// cubemap environment
+
+// assets
+import frontz from './assets/sunset0-front+z.png';
+import backz from './assets/sunset1-back-z.png';
+import leftx from './assets/sunset2-left+x.png';
+import rightx from './assets/sunset3-right-x.png';
+import upy from './assets/sunset4-up+y.png';
+import downy from './assets/sunset5-down-y.png';
+
+const cubeLoader = new THREE.CubeTextureLoader();
+const cubeTexture = cubeLoader.load([leftx, rightx, upy, downy, frontz, backz]);
+
 // scene
 
 const scene = new THREE.Scene();
 const light = new THREE.AmbientLight(0xffffff, 1 /* * Math.PI */); // 156+
 scene.add(light);
+
+// scene.background = cubeTexture;
+scene.environment = cubeTexture;
 
 // load
 
@@ -87,6 +103,7 @@ function animation(time) {
 
   const timeElapsed = (time - previousRAF) * 0.001;
 
+  controls.update(); // not strictly required
   mixer.update(timeElapsed);
   renderer.render(scene, camera);
 
@@ -95,9 +112,26 @@ function animation(time) {
 
 // resize
 
-window.addEventListener('resize', () => {
+window.addEventListener('resize', (e) => {
   camera.aspect = window.innerWidth / window.innerHeight;
   camera.updateProjectionMatrix();
 
   renderer.setSize(window.innerWidth, window.innerHeight);
+});
+
+// keyboard
+
+window.addEventListener('keydown', (e) => {
+  switch (e.key) {
+    case ' ':
+      mixer.stopAllAction();
+      break;
+
+    case 'l':
+      scene.environment = scene.environment ? null : cubeTexture;
+      break;
+
+    default:
+      break;
+  }
 });
