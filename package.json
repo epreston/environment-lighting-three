@@ -19,7 +19,9 @@
     "dev": "vite",
     "build": "vite build --emptyOutDir",
     "preview": "vite preview",
-    "lint": "eslint --ext .js --report-unused-disable-directives ."
+    "lint": "eslint --ext .js --report-unused-disable-directives .",
+    "format": "prettier --check --cache \"**/*.[tj]s?(x)\"",
+    "format-fix": "prettier --write --cache \"**/*.[tj]s?(x)\""
   },
   "dependencies": {
     "@tweakpane/plugin-essentials": "^0.2.0",
@@ -30,6 +32,7 @@
     "@tweakpane/core": "^2.0.1",
     "eslint": "^8.49.0",
     "eslint-config-prettier": "^9.0.0",
+    "prettier": "^3.0.3",
     "vite": "^4.4.9",
     "vite-plugin-glsl": "^1.1.2"
   }
