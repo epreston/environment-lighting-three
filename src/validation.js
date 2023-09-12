@@ -159,6 +159,10 @@ window.addEventListener('keydown', (e) => {
       scene.background = scene.background ? null : scene.environment;
       break;
 
+    case 'f':
+      scene.backgroundBlurriness = scene.backgroundBlurriness > 0 ? 0 : 0.1;
+      break;
+
     default:
       break;
   }
