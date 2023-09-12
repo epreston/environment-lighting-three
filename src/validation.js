@@ -36,7 +36,7 @@ const cubeTexture = cubeLoader.load([leftx, rightx, upy, downy, frontz, backz]);
 // scene
 
 const scene = new THREE.Scene();
-const light = new THREE.AmbientLight(0xffffff, 1 * Math.PI); // 156+
+const light = new THREE.AmbientLight(0xffffff, 1 * Math.PI);
 light.visible = false;
 scene.add(light);
 
