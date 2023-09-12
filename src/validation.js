@@ -2,24 +2,33 @@
 
 // will return url, see vite.config.js and this app's global.d.ts
 import gblFile from './assets/spriggen-opt-compress.glb';
+import hdrFile from './skybox/paul_lobe_haus_2k.hdr';
+
+import frontz from './images/sunset0-front+z.png';
+import backz from './images/sunset1-back-z.png';
+import leftx from './images/sunset2-left+x.png';
+import rightx from './images/sunset3-right-x.png';
+import upy from './images/sunset4-up+y.png';
+import downy from './images/sunset5-down-y.png';
 
 import * as THREE from 'three';
 
 import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader.js';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+import { RGBELoader } from 'three/examples/jsm/loaders/RGBELoader.js';
 
-const decoderPath = 'https://www.gstatic.com/draco/versioned/decoders/1.5.6/';
+// hdr
+
+const rgbeLoader = new RGBELoader();
+const hdrTexture = rgbeLoader.load(hdrFile, function (texture) {
+  texture.mapping = THREE.EquirectangularReflectionMapping;
+
+  // scene.background = texture;
+  // scene.environment = texture;
+});
 
 // cubemap environment
-
-// assets
-import frontz from './assets/sunset0-front+z.png';
-import backz from './assets/sunset1-back-z.png';
-import leftx from './assets/sunset2-left+x.png';
-import rightx from './assets/sunset3-right-x.png';
-import upy from './assets/sunset4-up+y.png';
-import downy from './assets/sunset5-down-y.png';
 
 const cubeLoader = new THREE.CubeTextureLoader();
 const cubeTexture = cubeLoader.load([leftx, rightx, upy, downy, frontz, backz]);
@@ -28,6 +37,7 @@ const cubeTexture = cubeLoader.load([leftx, rightx, upy, downy, frontz, backz]);
 
 const scene = new THREE.Scene();
 const light = new THREE.AmbientLight(0xffffff, 1 /* * Math.PI */); // 156+
+light.visible = false;
 scene.add(light);
 
 // scene.background = cubeTexture;
@@ -58,6 +68,8 @@ const onProgress = (status) => console.log((status.loaded / status.total) * 100 
 const onError = (error) => console.log(error);
 
 // glTF with DRACO support
+
+const decoderPath = 'https://www.gstatic.com/draco/versioned/decoders/1.5.6/';
 
 const dracoLoader = new DRACOLoader();
 dracoLoader.setDecoderPath(decoderPath);
@@ -127,8 +139,24 @@ window.addEventListener('keydown', (e) => {
       mixer.stopAllAction();
       break;
 
+    case 'c':
+      scene.environment = cubeTexture;
+      break;
+
+    case 'h':
+      scene.environment = hdrTexture;
+      break;
+
     case 'l':
-      scene.environment = scene.environment ? null : cubeTexture;
+      light.visible = light.visible ? false : true;
+      break;
+
+    case 'e':
+      scene.environment = scene.environment ? null : hdrTexture;
+      break;
+
+    case 'b':
+      scene.background = scene.background ? null : scene.environment;
       break;
 
     default:
