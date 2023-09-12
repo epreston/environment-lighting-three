@@ -36,12 +36,12 @@ const cubeTexture = cubeLoader.load([leftx, rightx, upy, downy, frontz, backz]);
 // scene
 
 const scene = new THREE.Scene();
-const light = new THREE.AmbientLight(0xffffff, 1 /* * Math.PI */); // 156+
+const light = new THREE.AmbientLight(0xffffff, 1 * Math.PI); // 156+
 light.visible = false;
 scene.add(light);
 
 // scene.background = cubeTexture;
-scene.environment = cubeTexture;
+scene.environment = hdrTexture;
 
 // load
 
@@ -87,9 +87,6 @@ camera.position.set(0, 1.5, 2);
 // renderer
 
 const renderer = new THREE.WebGLRenderer({ antialias: true });
-
-// (required: 150.1, not required in future versions)
-renderer.outputEncoding = THREE.sRGBEncoding; // SRGBColorSpace
 
 renderer.setClearColor(0x3d3d3d);
 renderer.setSize(window.innerWidth, window.innerHeight);
