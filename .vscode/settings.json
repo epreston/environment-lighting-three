@@ -20,9 +20,17 @@
   },
   "cSpell.words": [
     "cubemap",
+    "epreston",
     "glsl",
     "gltf",
     "threejs",
     "tweakpane"
+  ],
+  "cSpell.ignoreWords": [
+    "backz",
+    "fpsgraph",
+    "frontz",
+    "leftx",
+    "rightx"
   ]
 }
