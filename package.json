@@ -4,8 +4,6 @@
   "name": "test-lighting",
   "version": "0.0.1",
   "description": "lighting validation test rig",
-  "keywords": [],
-  "author": "",
   "license": "MIT",
   "files": [
     "dist"
@@ -15,6 +13,7 @@
     "root": true,
     "extends": "@epreston/eslint-config"
   },
+  "prettier": "@epreston/prettier-config",
   "scripts": {
     "dev": "vite",
     "build": "vite build --emptyOutDir",
@@ -23,19 +22,20 @@
     "format": "prettier --check --cache \"**/*.[tj]s?(x)\"",
     "format-fix": "prettier --write --cache \"**/*.[tj]s?(x)\""
   },
-  "dependencies": {
-    "@tweakpane/plugin-essentials": "^0.2.0",
-    "three": "0.156.1",
-    "tweakpane": "^4.0.1"
-  },
   "devDependencies": {
     "@epreston/eslint-config": "^1.1.0",
+    "@epreston/prettier-config": "^1.0.0",
     "@epreston/tsconfig": "^1.0.1",
     "@tweakpane/core": "^2.0.1",
     "eslint": "^8.53.0",
     "prettier": "^3.0.3",
     "vite": "^4.5.0",
     "vite-plugin-glsl": "^1.1.2"
+  },
+  "dependencies": {
+    "@tweakpane/plugin-essentials": "^0.2.0",
+    "three": "0.156.1",
+    "tweakpane": "^4.0.1"
   },
   "engines": {
     "node": "^18.18.0 || >=20.9.0"
