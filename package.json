@@ -11,6 +11,10 @@
     "dist"
   ],
   "browserslist": "Chrome >= 112, ChromeAndroid >= 112, Edge >= 112, Firefox >= 112, FirefoxAndroid  >= 112,  Safari >= 16.4, iOS >= 16.4, not dead",
+  "eslintConfig": {
+    "root": true,
+    "extends": "@epreston/eslint-config"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build --emptyOutDir",
@@ -25,10 +29,10 @@
     "tweakpane": "^4.0.1"
   },
   "devDependencies": {
+    "@epreston/eslint-config": "^1.0.0",
     "@epreston/tsconfig": "^1.0.1",
     "@tweakpane/core": "^2.0.1",
     "eslint": "^8.52.0",
-    "eslint-config-prettier": "^9.0.0",
     "prettier": "^3.0.3",
     "vite": "^4.5.0",
     "vite-plugin-glsl": "^1.1.2"
