@@ -29,7 +29,7 @@
     "tweakpane": "^4.0.1"
   },
   "devDependencies": {
-    "@epreston/eslint-config": "^1.0.0",
+    "@epreston/eslint-config": "^1.1.0",
     "@epreston/tsconfig": "^1.0.1",
     "@tweakpane/core": "^2.0.1",
     "eslint": "^8.53.0",
