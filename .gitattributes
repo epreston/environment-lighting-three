@@ -6,17 +6,9 @@
 # *.scss linguist-vendored
 # *.html linguist-vendored
 # *.js linguist-vendored
-# *.php linguist-vendored
-# *.py linguist-vendored
+
 CHANGELOG.md export-ignore
-
 LICENSE eol=crlf
-
-*.bat eol=crlf
-*.cmd eol=crlf
-*.ps1 eol=lf
-*.sh eol=lf
-*.rtf -text
 
 # Binary file types.
 *.webp binary
