@@ -1,4 +1,4 @@
-# Environment Lighting - three.js
+# Environment lighting with three.js
 
 Environment lighting using [three.js](https://threejs.org/).
 
