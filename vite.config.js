@@ -12,7 +12,7 @@ export default defineConfig({
     chunkSizeWarningLimit: 600,
     rollupOptions: {
       output: {
-        // size observability
+        // dependency size observability
         manualChunks: (id) => {
           // create chunk for three example deps.
           if (id.includes('node_modules/three/examples')) {
