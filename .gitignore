@@ -28,9 +28,6 @@ dist
 # Optional eslint cache
 .eslintcache
 
-# TypeScript cache
-*.tsbuildinfo
-
 # ignore non-npm lockfiles
 pnpm-lock.yaml
 yarn.lock
