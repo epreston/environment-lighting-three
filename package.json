@@ -25,16 +25,13 @@
     "@epreston/eslint-config": "^1.1.0",
     "@epreston/prettier-config": "^1.0.0",
     "@epreston/tsconfig": "^1.0.1",
-    "@tweakpane/core": "^2.0.1",
     "eslint": "^8.53.0",
     "prettier": "^3.0.3",
     "vite": "^4.5.0",
     "vite-plugin-glsl": "^1.1.2"
   },
   "dependencies": {
-    "@tweakpane/plugin-essentials": "^0.2.0",
-    "three": "0.156.1",
-    "tweakpane": "^4.0.1"
+    "three": "0.156.1"
   },
   "engines": {
     "node": "^18.18.0 || >=20.9.0"
