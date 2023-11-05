@@ -1,5 +1,7 @@
 /* eslint-disable no-console */
 
+// single file for clarity
+
 // will return url, see vite.config.js and this app's global.d.ts
 import gblFile from './assets/spriggen-opt-compress.glb';
 import hdrFile from './skybox/paul_lobe_haus_2k.hdr';
@@ -82,7 +84,7 @@ gltfLoader.load(gblFile, onLoad, onProgress, onError);
 // camera
 
 const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 100);
-camera.position.set(0, 1.5, 2);
+camera.position.set(0, 1.5, 2); // false type error
 
 // renderer
 
