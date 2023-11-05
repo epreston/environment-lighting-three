@@ -4,6 +4,8 @@ Environment lighting using [three.js](https://threejs.org/).
 
 [![CI][ci-badge]][ci-url]
 
+https://github.com/epreston/environment-lighting-three/assets/347224/b3f08fc7-daae-480d-a0a2-884cf0d3bfe0
+
 ## Quick Start
 
 Install [Node.js](https://nodejs.org/en/download/), download or [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) this repository, and run the following console commands within your local copy:
