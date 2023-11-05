@@ -1,9 +1,6 @@
 {
   "extends": "@epreston/tsconfig",
   "compilerOptions": {
-    /* Modules */
-    "resolveJsonModule": true,
-
     /* Emit */
     "outDir": "temp"
   },
