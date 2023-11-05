@@ -1,6 +1,6 @@
 # Environment Lighting Validation
 
-Ensure environment lighting is working.
+Ensure environment lighting is working using three.js.
 
 [![CI][ci-badge]][ci-url]
 
