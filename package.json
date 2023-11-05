@@ -2,9 +2,7 @@
   "private": true,
   "type": "module",
   "name": "test-lighting",
-  "version": "0.0.1",
-  "description": "lighting validation test rig",
-  "license": "MIT",
+  "version": "1.0.0",
   "files": [
     "dist"
   ],
@@ -18,6 +16,7 @@
     "dev": "vite",
     "build": "vite build --emptyOutDir",
     "preview": "vite preview",
+    "start": "vite --open",
     "lint": "eslint --ext .js --report-unused-disable-directives .",
     "format": "prettier --check --cache \"**/*.[tj]s?(x)\"",
     "format-fix": "prettier --write --cache \"**/*.[tj]s?(x)\""
