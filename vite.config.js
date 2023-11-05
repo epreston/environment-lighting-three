@@ -4,7 +4,7 @@ import { defineConfig, splitVendorChunkPlugin } from 'vite';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  assetsInclude: ['**/*.gltf', '**/*.glb', '**/*.hdr'],
+  assetsInclude: ['**/*.glb', '**/*.hdr'],
   plugins: [splitVendorChunkPlugin()],
   build: {
     // minify: false,
