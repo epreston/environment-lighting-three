@@ -1,24 +1,34 @@
-# Environment Lighting Validation
+# Environment Lighting - three.js
 
-Ensure environment lighting is working using three.js.
+Environment lighting using [three.js](https://threejs.org/).
 
 [![CI][ci-badge]][ci-url]
 
-## Setup
+## Quick Start
 
-Download [Node.js](https://nodejs.org/en/download/).
-
-Run the following commands:
+Install [Node.js](https://nodejs.org/en/download/), download or [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) this repository, and run the following console commands within your local copy:
 
 ```bash
 # install dependencies
 npm install
 
-# start a local server in development mode
-npm run dev
+# start a local server and open in browser
+npm run start
 ```
 
-## Commands
+## Keyboard Shortcuts
+
+| Key       | Action                      |
+| --------- | --------------------------- |
+| `{space}` | stop animation              |
+| `c`       | use cube texture            |
+| `h`       | use hdr texture             |
+| `l`       | toggle ambient light        |
+| `e`       | toggle environment lighting |
+| `b`       | toggle background           |
+| `f`       | toggle blur                 |
+
+## NPM Commands
 
 | Action     | Command              | Description                                      |
 | ---------- | -------------------- | ------------------------------------------------ |
@@ -29,27 +39,33 @@ npm run dev
 | format     | `npm run format`     | Check source file formatting                     |
 | format-fix | `npm run format-fix` | Format source files                              |
 
+## Libraries
+
+| Library  | Reference            |
+| -------- | -------------------- |
+| three.js | https://threejs.org/ |
+
 ## Tools
 
-| Tool         | Reference                      |
-| ------------ | ------------------------------ |
-| three.js     | https://threejs.org/           |
-| Node.js      | https://nodejs.org/            |
-| Vite         | https://vitejs.dev/            |
-| ESLint       | https://eslint.org/            |
-| Prettier     | https://prettier.io            |
-| EditorConfig | https://editorconfig.org       |
-| jsdom        | https://github.com/jsdom/jsdom |
+| Tool         | Reference                |
+| ------------ | ------------------------ |
+| Node.js      | https://nodejs.org/      |
+| Vite         | https://vitejs.dev/      |
+| ESLint       | https://eslint.org/      |
+| Prettier     | https://prettier.io      |
+| EditorConfig | https://editorconfig.org |
 
 ## References
 
-| Website      | Reference                       |
-| ------------ | ------------------------------- |
-| Can I Use    | https://caniuse.com             |
-| Browserslist | https://browsersl.ist           |
-| WebGL2       | https://www.khronos.org/webgl/  |
-| glTF         | https://www.khronos.org/gltf/   |
-| Fundamentals | https://webgl2fundamentals.org/ |
+| Website       | Reference                       |
+| ------------- | ------------------------------- |
+| Can I Use     | https://caniuse.com             |
+| Browserslist  | https://browsersl.ist           |
+| convertacolor | https://convertacolor.com/      |
+| Polyfill.io   | https://polyfill.io             |
+| WebGL2        | https://www.khronos.org/webgl/  |
+| glTF          | https://www.khronos.org/gltf/   |
+| Fundamentals  | https://webgl2fundamentals.org/ |
 
 ## License
 
