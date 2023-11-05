@@ -3,7 +3,6 @@
 
 # Files to remove from language stats for this project
 # *.css linguist-vendored
-# *.scss linguist-vendored
 # *.html linguist-vendored
 # *.js linguist-vendored
 
@@ -18,9 +17,3 @@ LICENSE eol=crlf
 *.fbx binary
 *.wasm binary
 *.basis binary
-*.bin binary
-*.dds binary
-*.drc binary
-*.mp3 binary
-*.mp4 binary
-*.gz binary
