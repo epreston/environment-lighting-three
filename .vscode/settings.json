@@ -21,12 +21,15 @@
   "cSpell.words": [
     "cubemap",
     "epreston",
+    "Equirectangular",
     "glsl",
     "gltf",
+    "skybox",
     "threejs",
     "tweakpane"
   ],
   "cSpell.ignoreWords": [
+    "RGBE",
     "backz",
     "fpsgraph",
     "frontz",
