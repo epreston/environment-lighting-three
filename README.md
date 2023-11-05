@@ -4,7 +4,7 @@ Environment lighting using [three.js](https://threejs.org/).
 
 [![CI][ci-badge]][ci-url]
 
-https://github.com/epreston/environment-lighting-three/assets/347224/b3f08fc7-daae-480d-a0a2-884cf0d3bfe0
+https://github.com/epreston/environment-lighting-three/assets/347224/21eab370-7667-4627-a50f-023dd7df6321
 
 ## Quick Start
 
