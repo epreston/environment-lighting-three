@@ -20,12 +20,14 @@ npm run dev
 
 ## Commands
 
-| Action  | Command           | Description                                      |
-| ------- | ----------------- | ------------------------------------------------ |
-| dev     | `npm run dev`     | Start a development server                       |
-| build   | `npm run build`   | Create a production build into "dist"            |
-| preview | `npm run preview` | Start a local server to preview production build |
-| lint    | `npm run lint`    | Run static code analysis                         |
+| Action     | Command              | Description                                      |
+| ---------- | -------------------- | ------------------------------------------------ |
+| dev        | `npm run dev`        | Start a development server                       |
+| build      | `npm run build`      | Create a production build into "dist"            |
+| preview    | `npm run preview`    | Start a local server to preview production build |
+| lint       | `npm run lint`       | Run static code analysis                         |
+| format     | `npm run format`     | Check source file formatting                     |
+| format-fix | `npm run format-fix` | Format source files                              |
 
 ## Tools
 
