@@ -2,6 +2,8 @@
 
 /// <reference types="vite/client" />
 
+// additional import types not included in vite/client
+
 declare module '*.glb' {
   const src: string;
   export default src;
