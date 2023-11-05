@@ -29,14 +29,15 @@ npm run dev
 
 ## Tools
 
-| Tool         | Reference                |
-| ------------ | ------------------------ |
-| three.js     | https://threejs.org/     |
-| Node.js      | https://nodejs.org/      |
-| Vite         | https://vitejs.dev/      |
-| ESLint       | https://eslint.org/      |
-| Prettier     | https://prettier.io      |
-| EditorConfig | https://editorconfig.org |
+| Tool         | Reference                      |
+| ------------ | ------------------------------ |
+| three.js     | https://threejs.org/           |
+| Node.js      | https://nodejs.org/            |
+| Vite         | https://vitejs.dev/            |
+| ESLint       | https://eslint.org/            |
+| Prettier     | https://prettier.io            |
+| EditorConfig | https://editorconfig.org       |
+| jsdom        | https://github.com/jsdom/jsdom |
 
 ## References
 
@@ -54,4 +55,3 @@ This project is released under the MIT [License](LICENSE).
 
 [ci-badge]: https://github.com/epreston/test-lighting/actions/workflows/ci.yml/badge.svg
 [ci-url]: https://github.com/epreston/test-lighting/actions
-
