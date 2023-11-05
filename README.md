@@ -16,7 +16,7 @@ npm install
 npm run start
 ```
 
-## Keyboard Shortcuts
+## Shortcuts
 
 | Key       | Action                      |
 | --------- | --------------------------- |
@@ -28,7 +28,7 @@ npm run start
 | `b`       | toggle background           |
 | `f`       | toggle blur                 |
 
-## NPM Commands
+## NPM
 
 | Action     | Command              | Description                                      |
 | ---------- | -------------------- | ------------------------------------------------ |
@@ -61,15 +61,11 @@ npm run start
 | ------------- | ------------------------------- |
 | Can I Use     | https://caniuse.com             |
 | Browserslist  | https://browsersl.ist           |
-| convertacolor | https://convertacolor.com/      |
-| Polyfill.io   | https://polyfill.io             |
-| WebGL2        | https://www.khronos.org/webgl/  |
 | glTF          | https://www.khronos.org/gltf/   |
-| Fundamentals  | https://webgl2fundamentals.org/ |
 
 ## License
 
 This project is released under the MIT [License](LICENSE).
 
-[ci-badge]: https://github.com/epreston/test-lighting/actions/workflows/ci.yml/badge.svg
-[ci-url]: https://github.com/epreston/test-lighting/actions
+[ci-badge]: https://github.com/epreston/environment-lighting-three/actions/workflows/ci.yml/badge.svg
+[ci-url]: https://github.com/epreston/environment-lighting-three/actions
