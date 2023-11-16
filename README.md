@@ -43,27 +43,28 @@ npm run start
 
 ## Libraries
 
-| Library  | Reference            |
-| -------- | -------------------- |
-| three.js | https://threejs.org/ |
+| Library  | Reference           |
+| -------- | ------------------- |
+| three.js | https://threejs.org |
 
 ## Tools
 
 | Tool         | Reference                |
 | ------------ | ------------------------ |
-| Node.js      | https://nodejs.org/      |
-| Vite         | https://vitejs.dev/      |
-| ESLint       | https://eslint.org/      |
+| Node.js      | https://nodejs.org       |
+| Vite         | https://vitejs.dev       |
+| ESLint       | https://eslint.org       |
 | Prettier     | https://prettier.io      |
 | EditorConfig | https://editorconfig.org |
 
 ## References
 
-| Website       | Reference                       |
-| ------------- | ------------------------------- |
-| Can I Use     | https://caniuse.com             |
-| Browserslist  | https://browsersl.ist           |
-| glTF          | https://www.khronos.org/gltf/   |
+| Reference    | Website                       |
+| ------------ | ----------------------------- |
+| mixamo       | https://www.mixamo.com        |
+| Can I Use    | https://caniuse.com           |
+| Browserslist | https://browsersl.ist         |
+| glTF         | https://www.khronos.org/gltf/ |
 
 ## License
 
