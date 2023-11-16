@@ -2,7 +2,7 @@
   "private": true,
   "type": "module",
   "name": "environment-lighting-three",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "files": [
     "dist"
   ],
@@ -31,12 +31,12 @@
     "format-fix": "prettier --write --cache \"**/*.[tj]s?(x)\""
   },
   "devDependencies": {
-    "@epreston/eslint-config": "^1.1.0",
-    "@epreston/prettier-config": "^1.0.0",
+    "@epreston/eslint-config": "^1.1.1",
+    "@epreston/prettier-config": "^2.0.0",
     "@epreston/tsconfig": "^1.0.1",
     "eslint": "^8.53.0",
     "prettier": "^3.1.0",
-    "vite": "^4.5.0"
+    "vite": "^5.0.0"
   },
   "dependencies": {
     "three": "0.158.0"
