@@ -5,13 +5,6 @@
   "tasks": [
     {
       "type": "npm",
-      "script": "dev",
-      "problemMatcher": [],
-      "label": "npm: dev",
-      "detail": "vite"
-    },
-    {
-      "type": "npm",
       "script": "build",
       "group": {
         "kind": "build",
@@ -20,26 +13,6 @@
       "problemMatcher": [],
       "label": "npm: build",
       "detail": "vite build --emptyOutDir"
-    },
-    {
-      "type": "npm",
-      "script": "preview",
-      "problemMatcher": [],
-      "label": "npm: preview",
-      "detail": "vite preview",
-      "presentation": {
-        "echo": true,
-        "panel": "dedicated"
-      }
-    },
-    {
-      "type": "npm",
-      "script": "lint",
-      "problemMatcher": [
-        "$eslint-stylish"
-      ],
-      "label": "npm: lint",
-      "detail": "eslint --ext .js ."
     }
   ]
 }
