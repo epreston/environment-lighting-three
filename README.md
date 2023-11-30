@@ -30,7 +30,7 @@ npm run start
 | `b`       | toggle background           |
 | `f`       | toggle blur                 |
 
-## NPM
+## Scripts
 
 | Action     | Command              | Description                                      |
 | ---------- | -------------------- | ------------------------------------------------ |
