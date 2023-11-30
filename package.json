@@ -6,19 +6,12 @@
   "files": [
     "dist"
   ],
-  "browserslist": [
-    "Chrome >= 112",
-    "ChromeAndroid >= 112",
-    "Edge >= 112",
-    "Firefox >= 112",
-    "FirefoxAndroid >= 112",
-    "Safari >= 16.4",
-    "iOS >= 16.4",
-    "not dead"
-  ],
   "eslintConfig": {
     "root": true,
-    "extends": "@epreston/eslint-config"
+    "extends": "@epreston/eslint-config",
+    "rules": {
+      "prettier/prettier": "off"
+    }
   },
   "prettier": "@epreston/prettier-config",
   "scripts": {
