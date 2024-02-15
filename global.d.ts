@@ -1,5 +1,3 @@
-// global.d.ts
-
 /// <reference types="vite/client" />
 
 // additional import types not included in vite/client
