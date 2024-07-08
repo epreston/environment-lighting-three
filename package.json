@@ -24,15 +24,15 @@
     "format-fix": "prettier --write --cache \"**/*.[tj]s?(x)\""
   },
   "devDependencies": {
-    "@epreston/eslint-config": "^1.1.1",
+    "@epreston/eslint-config": "^1.1.2",
     "@epreston/prettier-config": "^2.0.0",
-    "@epreston/tsconfig": "^1.1.1",
+    "@epreston/tsconfig": "^1.2.0",
     "eslint": "^8.57.0",
     "prettier": "^3.3.2",
-    "vite": "^5.3.2"
+    "vite": "^5.3.3"
   },
   "dependencies": {
-    "three": "0.166.0"
+    "three": "0.166.1"
   },
   "engines": {
     "node": "^18.19.0 || >=20.11.0"
