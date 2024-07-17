@@ -12,17 +12,17 @@
     "build": "vite build --emptyOutDir",
     "preview": "vite preview",
     "start": "vite --open",
-    "lint": "eslint --report-unused-disable-directives .",
+    "lint": "eslint .",
     "format": "prettier --check --cache \"**/*.[tj]s?(x)\"",
     "format-fix": "prettier --write --cache \"**/*.[tj]s?(x)\""
   },
   "devDependencies": {
-    "@epreston/eslint-config": "^2.0.0",
+    "@epreston/eslint-config": "^2.1.1",
     "@epreston/prettier-config": "^2.0.0",
-    "@epreston/tsconfig": "^1.2.0",
+    "@epreston/tsconfig": "^1.2.1",
     "eslint": "^9.7.0",
     "prettier": "^3.3.3",
-    "vite": "^5.3.3"
+    "vite": "^5.3.4"
   },
   "dependencies": {
     "three": "0.166.1"
