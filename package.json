@@ -10,11 +10,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --emptyOutDir",
-    "preview": "vite preview",
     "start": "vite --open",
     "lint": "eslint .",
-    "format": "prettier --check --cache \"**/*.[tj]s?(x)\"",
-    "format-fix": "prettier --write --cache \"**/*.[tj]s?(x)\""
+    "format": "prettier --check \"**/*.[tj]s\"",
+    "format-fix": "prettier --write \"**/*.[tj]s\""
   },
   "devDependencies": {
     "@epreston/eslint-config": "^2.1.1",

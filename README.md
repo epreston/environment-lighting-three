@@ -32,14 +32,13 @@ npm run start
 
 ## Scripts
 
-| Action     | Command              | Description                                      |
-| ---------- | -------------------- | ------------------------------------------------ |
-| dev        | `npm run dev`        | Start a development server                       |
-| build      | `npm run build`      | Create a production build into "dist"            |
-| preview    | `npm run preview`    | Start a local server to preview production build |
-| lint       | `npm run lint`       | Run static code analysis                         |
-| format     | `npm run format`     | Check source file formatting                     |
-| format-fix | `npm run format-fix` | Format source files                              |
+| Action     | Command              | Description                           |
+| ---------- | -------------------- | ------------------------------------- |
+| dev        | `npm run dev`        | Start a development server            |
+| build      | `npm run build`      | Create a production build into "dist" |
+| lint       | `npm run lint`       | Run static code analysis              |
+| format     | `npm run format`     | Check source file formatting          |
+| format-fix | `npm run format-fix` | Format source files                   |
 
 ## Libraries
 
