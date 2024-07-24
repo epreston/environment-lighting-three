@@ -12,8 +12,7 @@
     "build": "vite build --emptyOutDir",
     "start": "vite --open",
     "lint": "eslint .",
-    "format": "prettier --check \"**/*.[tj]s\"",
-    "format-fix": "prettier --write \"**/*.[tj]s\""
+    "format": "prettier --write \"**/*.[tj]s\""
   },
   "devDependencies": {
     "@epreston/eslint-config": "^2.1.1",
