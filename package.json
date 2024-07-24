@@ -6,6 +6,7 @@
   "files": [
     "dist"
   ],
+  "packageManager": "npm@10.7.0",
   "prettier": "@epreston/prettier-config",
   "scripts": {
     "dev": "vite",
