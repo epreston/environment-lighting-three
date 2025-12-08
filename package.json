@@ -22,7 +22,7 @@
     "@epreston/tsconfig": "^1.2.1",
     "eslint": "^9.39.1",
     "prettier": "^3.7.4",
-    "vite": "^5.4.19"
+    "vite": "^7.2.7"
   },
   "dependencies": {
     "three": "0.181.2"
