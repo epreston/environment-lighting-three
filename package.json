@@ -17,7 +17,7 @@
     "format": "prettier --write \"**/*.[tj]s\""
   },
   "devDependencies": {
-    "@epreston/eslint-config": "^2.1.1",
+    "@epreston/eslint-config": "^2.3.0",
     "@epreston/prettier-config": "^2.1.0",
     "@epreston/tsconfig": "^1.2.1",
     "eslint": "^9.39.2",
