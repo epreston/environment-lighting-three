@@ -57,12 +57,13 @@ npm run start
 
 ## References
 
-| Reference    | Website                       |
-| ------------ | ----------------------------- |
-| mixamo       | https://www.mixamo.com        |
-| Can I Use    | https://caniuse.com           |
-| Browserslist | https://browsersl.ist         |
-| glTF         | https://www.khronos.org/gltf/ |
+| Reference           | Website                       |
+| ------------------- | ----------------------------- |
+| mixamo              | https://www.mixamo.com        |
+| Can I Use           | https://caniuse.com           |
+| Browserslist        | https://browsersl.ist         |
+| Web Platform Status | https://webstatus.dev         |
+| glTF                | https://www.khronos.org/gltf/ |
 
 ## License
 
