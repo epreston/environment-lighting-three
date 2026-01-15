@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     // minify: false,
     // assetsInlineLimit: 0,
-    target: ['es2022'],
+    target: ['es2024'],
     chunkSizeWarningLimit: 600,
     rollupOptions: {
       output: {
