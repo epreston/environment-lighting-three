@@ -4,7 +4,7 @@
   "recommendations": [
     "dbaeumer.vscode-eslint",
     "editorconfig.editorconfig",
-    "prettier.prettier-vscode",
+    "esbenp.prettier-vscode",
     "raczzalan.webgl-glsl-editor"
   ]
 }
