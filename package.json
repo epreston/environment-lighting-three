@@ -23,7 +23,7 @@
     "@epreston/eslint-config": "^2.3.0",
     "@epreston/prettier-config": "^2.1.0",
     "@epreston/tsconfig": "^1.2.1",
-    "eslint": "^9.39.2",
+    "eslint": "^10.0.0",
     "prettier": "^3.8.1",
     "vite": "^7.3.1"
   },
