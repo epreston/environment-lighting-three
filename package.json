@@ -20,7 +20,7 @@
     "build": "vite build --emptyOutDir",
     "start": "vite --open",
     "lint": "eslint .",
-    "format": "prettier --write \"**/*.[tj]s\""
+    "format": "prettier --write \"**/*.js\""
   },
   "devDependencies": {
     "@epreston/eslint-config": "^2.4.2",
