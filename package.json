@@ -3,7 +3,10 @@
   "type": "module",
   "name": "environment-lighting-three",
   "version": "1.2.0",
-  "repository": "github:epreston/environment-lighting-three",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epreston/environment-lighting-three.git"
+  },
   "browserslist": [
     "baseline 2025"
   ],
