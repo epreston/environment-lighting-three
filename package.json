@@ -2,7 +2,7 @@
   "private": true,
   "type": "module",
   "name": "environment-lighting-three",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/epreston/environment-lighting-three.git"
