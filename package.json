@@ -8,7 +8,7 @@
     "baseline 2025"
   ],
   "prettier": "@epreston/prettier-config",
-  "packageManager": "npm@11.8.0",
+  "packageManager": "npm@11.10.1",
   "engines": {
     "node": "^22.22.0 || >=24.13.0"
   },
@@ -20,14 +20,14 @@
     "format": "prettier --write \"**/*.[tj]s\""
   },
   "devDependencies": {
-    "@epreston/eslint-config": "^2.3.0",
-    "@epreston/prettier-config": "^2.1.0",
-    "@epreston/tsconfig": "^1.2.1",
-    "eslint": "^10.0.0",
+    "@epreston/eslint-config": "^2.4.2",
+    "@epreston/prettier-config": "^2.1.1",
+    "@epreston/tsconfig": "^1.2.2",
+    "eslint": "^10.0.1",
     "prettier": "^3.8.1",
     "vite": "^7.3.1"
   },
   "dependencies": {
-    "three": "0.182.0"
+    "three": "0.183.1"
   }
 }
