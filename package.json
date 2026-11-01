@@ -23,7 +23,7 @@
     "format": "prettier --write \"**/*.js\""
   },
   "devDependencies": {
-    "@epreston/eslint-config": "^2.4.2",
+    "@epreston/eslint-config": "^3.0.0",
     "@epreston/prettier-config": "^2.1.2",
     "@epreston/tsconfig": "^1.2.3",
     "eslint": "^10.13.0",
